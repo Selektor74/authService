@@ -34,7 +34,7 @@ func main() {
 	authServer := &Server{
 		users:      make(map[string]string),
 		userIds:    make(map[string]string),
-		nextUserId: 1,
+		nextUserId: "next UUID",
 		jwtSecret:  jwtKey,
 	}
 
